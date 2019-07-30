@@ -2,7 +2,7 @@ DESCRIPTION = "All non-test packages for the target from files/${ROS_DISTRO}/cac
 LICENSE = "MIT"
 
 inherit packagegroup
-inherit ros_distro_${ROS_DISTRO}
+#inherit ros_distro_${ROS_DISTRO}
 
 PACKAGES = "${PN}"
 

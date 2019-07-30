@@ -10,8 +10,8 @@ include ${LAYERDIR_meta-webos}/recipes-core/images/webos-image.bb
 SUMMARY = "ROS with webOS image containing core TurtleBot 3 packages"
 DESCRIPTION = "${SUMMARY}"
 
-inherit ros_distro_${ROS_DISTRO}
-inherit ${ROS_DISTRO_TYPE}_image
+#inherit ros_distro_${ROS_DISTRO}
+#inherit ${ROS_DISTRO_TYPE}_image
 
 IMAGE_INSTALL_append = " \
     packagegroup-ros-turtlebot3-core \
