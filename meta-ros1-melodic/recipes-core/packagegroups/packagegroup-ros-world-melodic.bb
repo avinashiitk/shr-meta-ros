@@ -11,6 +11,19 @@ RDEPENDS_${PN} = "${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES}"
 RDEPENDS_${PN}_remove = "${@ '${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT}' if 'qt5-layer' not in BBFILE_COLLECTIONS.split() else '' }"
 
 ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT = " \
+    python-qt-binding \
+    dataspeed-pds-rqt \
+    qt-gui-py-common \
+    node-manager-fkie \
+    qt-dotgraph \
+    rqt-py-common \
+    qt-gui-core \
+    multimaster-fkie \
+    rqt-py-trees \
+    rqt-common-plugins \
+    rqt-action \
+    rqt-ez-publisher \
+    rqt-service-caller \
     rqt-bag \
     rqt-console \
     rqt-dep \
