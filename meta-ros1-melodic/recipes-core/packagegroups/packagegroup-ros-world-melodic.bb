@@ -7,3 +7,32 @@ inherit ros_distro_melodic
 PACKAGES = "${PN}"
 
 RDEPENDS_${PN} = "${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES}"
+
+RDEPENDS_${PN}_remove = "${@ '${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT}' if 'qt5-layer' not in BBFILE_COLLECTIONS.split() else '' }"
+
+ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT = " \
+    rqt-bag \
+    rqt-console \
+    rqt-dep \
+    rqt-graph \
+    rqt-launch \
+    rqt-logger-level \
+    rqt-moveit \
+    rqt-msg \
+    rqt-nav-view \
+    rqt-plot \
+    rqt-pose-view \
+    rqt-publisher \
+    rqt-py-console \
+    rqt-reconfigure \
+    rqt-robot-dashboard \
+    rqt-robot-monitor \
+    rqt-robot-steering \
+    rqt-runtime-monitor \
+    rqt-shell \
+    rqt-tf-tree \
+    rqt-topic \
+    rqt-top \
+    rqt-web \
+    rviz \
+"
