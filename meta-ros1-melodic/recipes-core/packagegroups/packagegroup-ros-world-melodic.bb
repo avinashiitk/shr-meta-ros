@@ -11,6 +11,22 @@ RDEPENDS_${PN} = "${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES}"
 RDEPENDS_${PN}_remove = "${@ '${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT}' if 'qt5-layer' not in BBFILE_COLLECTIONS.split() else '' }"
 
 ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT = " \
+    adi-driver \
+    husky-viz \
+    jackal-viz \
+    jsk-data \
+    jsk-interactive-marker \
+    jsk-interactive-test \
+    jsk-pcl-ros-utils \
+    jsk-perception \
+    jsk-rviz-plugins \
+    ridgeback-viz \
+    rtabmap-ros \
+    rviz-python-tutorial \
+    rviz-visual-tools \
+    urdf-sim-tutorial \
+    urdf-tutorial \
+    warthog-viz \
     agni-tf-tools \
     cartographer-rviz \
     distance-map-rviz \
