@@ -11,6 +11,39 @@ RDEPENDS_${PN} = "${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES}"
 RDEPENDS_${PN}_remove = "${@ '${ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT}' if 'qt5-layer' not in BBFILE_COLLECTIONS.split() else '' }"
 
 ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_META_QT = " \
+    agni-tf-tools \
+    cartographer-rviz \
+    distance-map-rviz \
+    dynamixel-workbench-single-manager-gui \
+    find-object-2d \
+    fkie-potree-rviz-plugin \
+    grid-map-rviz-plugin \
+    jsk-recognition-utils \
+    libqt-core \
+    libqt-gui \
+    libqt-opengl \
+    libqt-rosdev \
+    libqt-widgets \
+    librviz-tutorial \
+    moveit-ros-visualization \
+    moveit-setup-assistant \
+    mrpt-bridge \
+    octomap-rviz-plugins \
+    open-manipulator-control-gui \
+    plotjuggler \
+    qt-gui \
+    qt-gui-cpp \
+    qt-qmake \
+    rqt-gui-cpp \
+    rqt-image-view \
+    rqt-multiplot \
+    rqt-rosmon \
+    rqt-rviz \
+    rviz-imu-plugin \
+    rviz-plugin-tutorials \
+    swri-console \
+    trajectory-tracker-rviz-plugins \
+    turtlesim \
     python-qt-binding \
     dataspeed-pds-rqt \
     qt-gui-py-common \
