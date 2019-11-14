@@ -9,6 +9,12 @@ ROS_DISTRO_CODENAME = "Crystal Clemmys"
 # OE must provide. It must be one of the values of ROS_DISTRO_RELEASE_PLATFORMS (which is set in generated/ros-distro.inc).
 ROS_DISTRO_BASELINE_PLATFORM = "ubuntu-bionic"
 
+require conf/ros-distro/include/crystal/generated/superflore-datetime.inc
+require conf/ros-distro/include/crystal/generated/ros-distro.inc
+require conf/ros-distro/include/crystal/ros-distro-recipe-blacklist.inc
+require conf/ros-distro/include/crystal/ros-distro-preferred-versions.inc
+require conf/ros-distro/include/crystal/ros-distro-preferred-providers.inc
+
 # XXX Temp until navigation2 builds.
 DISTRO_FEATURES_append = " ros-behaviortree-cpp-v3"
 

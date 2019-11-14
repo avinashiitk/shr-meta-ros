@@ -9,6 +9,12 @@ ROS_DISTRO_CODENAME = "Melodic Morenia"
 # OE must provide. It must be one of the values of ROS_DISTRO_RELEASE_PLATFORMS (which is set in generated/ros-distro.inc).
 ROS_DISTRO_BASELINE_PLATFORM = "ubuntu-bionic"
 
+require conf/ros-distro/include/melodic/generated/superflore-datetime.inc
+require conf/ros-distro/include/melodic/generated/ros-distro.inc
+require conf/ros-distro/include/melodic/ros-distro-recipe-blacklist.inc
+require conf/ros-distro/include/melodic/ros-distro-preferred-versions.inc
+require conf/ros-distro/include/melodic/ros-distro-preferred-providers.inc
+
 # Override settings from generated/ros-distro.inc here.
 
 # Since superflore doesn't know when it's generating a recipe that it will be for a build tool, it can't know that what's in
