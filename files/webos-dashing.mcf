@@ -43,18 +43,22 @@ Layers = [
 ('meta-qt5-compat',           19, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 {'branch': 'krogoth', 'commit': 'dcfcb58'}, {}),
 
-('meta-ros',                  38, 'git://github.com/ros/meta-ros.git',                      {'branch': 'thud-draft'}, {}),
+('meta-ros-backports-warrior',34, 'git://github.com/shr-project/meta-ros.git',              {'branch': 'split-layers'}, {}),
+('meta-ros-common',           35, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros2',                 36, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros2-dashing',         37, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
 
 ('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            {'branch': 'master', 'commit': 'builds/webosose/master/' + webOSOSEBuildNumber}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            {'branch': 'thud', 'commit': 'c71d79e'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
+
+('meta-webos-ros',            60, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
 ]
 
 # BblayersConfExtraLines is a list of strings to be appended to the generated
 # conf/bblayers.conf .
 BblayersConfExtraLines = ['DISTRO ?= "' + Distribution + '"',
-                          'ROS_DISTRO ?= "dashing"',
                           'ROS_SUPPORTED_MACHINES ?= "' + ' '.join(Machines) + '"',
                           'WEBOS_DISTRO_VERSION_TYPE_append = ".' + webOSOSEBuildNumber + '"',
                          ]

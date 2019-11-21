@@ -36,8 +36,10 @@ Layers = [
 
 ('meta-ros-backports-warrior',34, 'git://github.com/shr-project/meta-ros.git',              {'branch': 'split-layers'}, {}),
 ('meta-ros-common',           35, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
-('meta-ros2',                 36, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
-('meta-ros2-crystal',         37, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros1',                 36, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros1-melodic',         37, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros2',                 38, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
+('meta-ros2-crystal',         39, 'git://github.com/shr-project/meta-ros.git',              {}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            {'branch': 'thud', 'commit': 'c71d79e'}, {}),
 ]
