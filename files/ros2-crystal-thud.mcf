@@ -15,9 +15,7 @@
 McfFileVersion = 2
 
 # Value for DISTRO
-Distribution = 'webos'
-
-webOSOSEBuildNumber = '84'
+Distribution = 'ros2'
 
 # Supported MACHINE-s
 Machines = ['raspberrypi3', 'qemux86']
@@ -29,26 +27,16 @@ Machines = ['raspberrypi3', 'qemux86']
 # Note that the github.com/openembedded repositories are read-only mirrors of
 # the authoritative repositories on git.openembedded.org .
 Layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': '1.40', 'commit': '7c1eb51d'}, {}),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': '1.40', 'commit': '4ce92f43'}, {}),
 
-('meta-gplv2',                 1, 'git://git.yoctoproject.org/meta-gplv2',                  {'branch': 'thud', 'commit': 'aabc30f'}, {}),
 ('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'thud', 'commit': 'f162d5bfe6'}, {}),
 
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'thud', 'commit': '9b3b907f30'}, {}),
-('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
-('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
-('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
-
-('meta-qt5-compat',           19, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 {'branch': 'krogoth', 'commit': 'dcfcb58'}, {}),
 
 ('meta-ros',                  38, 'git://github.com/ros/meta-ros.git',                      {'branch': 'thud-draft'}, {}),
 
-('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            {'branch': 'master', 'commit': 'builds/webosose/master/' + webOSOSEBuildNumber}, {}),
-
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            {'branch': 'thud', 'commit': 'c71d79e'}, {}),
-('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'thud', 'commit': '89bdf97'}, {}),
 ]
 
 # BblayersConfExtraLines is a list of strings to be appended to the generated
@@ -56,5 +44,4 @@ Layers = [
 BblayersConfExtraLines = ['DISTRO ?= "' + Distribution + '"',
                           'ROS_DISTRO ?= "crystal"',
                           'ROS_SUPPORTED_MACHINES ?= "' + ' '.join(Machines) + '"',
-                          'WEBOS_DISTRO_VERSION_TYPE_append = ".' + webOSOSEBuildNumber + '"',
                          ]
