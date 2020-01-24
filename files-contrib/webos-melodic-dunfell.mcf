@@ -22,18 +22,19 @@ MetaRosWebos_Branch  = getenv('MCF_META_ROS_WEBOS_BRANCH',   'master-draft')
 # Note that the github.com/openembedded repositories are read-only mirrors of
 # the authoritative repositories on git.openembedded.org .
 Layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': 'master', 'commit': 'f5daef68'}, {}),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': 'master', 'commit': 'd5a4a352'}, {}),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': '9d7a521971'}, {}),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': '15049c610b'}, {}),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': 'ea8604a0e3'}, {}),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': '7077abdf29'}, {}),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 
-('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    {'branch': 'master', 'commit': '3df17b1'}, {}),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'master', 'commit': 'b4c43fd'}, {}),
+('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    {'branch': 'master', 'commit': 'f080cbb'}, {}),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'master', 'commit': '7f6f7a4'}, {}),
+('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                {'branch': 'master', 'commit': '59ff56a'}, {}),
 
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 {'branch': 'warrior', 'commit': '20331bd6'}, {}),
 
@@ -41,9 +42,9 @@ Layers = [
 ('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'master', 'commit': 'master-2020-01-17-gst'}, {}),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'master', 'commit': 'master-2020-01-26b'}, {}),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': '722d837'}, {}),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': '37d3dd9'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
@@ -51,7 +52,7 @@ Layers = [
 ('meta-ros-webos',            60, MetaRosWebos_RepoURL,                                     {'branch': MetaRosWebos_Branch}, {}),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': 'b72cc7f'}, {}),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': '197d358'}, {}),
 ]
 
 # BblayersConfExtraLines is a list of strings to be appended to the generated
