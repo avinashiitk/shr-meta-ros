@@ -57,6 +57,7 @@ Layers = [
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'warrior', 'commit': 'a24acf94d4'}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 
+('meta-ros-backports-zeus',   34, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
 ('meta-ros-common',           35, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
 ('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),

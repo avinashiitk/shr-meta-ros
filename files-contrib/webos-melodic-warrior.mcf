@@ -38,6 +38,7 @@ Layers = [
 ('meta-webos-backports-3.0',  30, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-backports-3.1',  31, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 
+('meta-ros-backports-zeus',   34, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
 ('meta-ros-common',           35, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
 ('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),
