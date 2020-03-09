@@ -41,7 +41,7 @@ Layers = [
 ('meta-ros2',                 38, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros2-dashing',         39, MetaRos_RepoURL,                                          {}, {}),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'zeus', 'commit': 'zeus-2020-02-24'}, {}),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'zeus', 'commit': 'zeus-2020-03-09'}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'zeus', 'commit': 'd17588f'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
