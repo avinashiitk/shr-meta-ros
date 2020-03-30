@@ -20,18 +20,18 @@ MetaRos_Branch  = getenv('MCF_META_ROS_BRANCH',   'master-draft')
 # Note that the github.com/openembedded repositories are read-only mirrors of
 # the authoritative repositories on git.openembedded.org .
 Layers = [
-('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': 'master', 'commit': '51f82791'}, {}),
+('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': 'master', 'commit': '9a5dd1be'}, {}),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': 'db80305e10'}, {}),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': '91f464177e'}, {}),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': '525f1c4ade'}, {}),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': 'e66990ec08'}, {}),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    {'branch': 'master', 'commit': '4a62d33'}, {}),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'master', 'commit': '540afb9'}, {}),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'master', 'commit': 'f1e768d'}, {}),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                {'branch': 'master', 'commit': '8fc9be7'}, {}),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
@@ -43,7 +43,7 @@ Layers = [
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-03-27'}, {}),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': 'd96ed84'}, {}),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': '4d5c6ed'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
@@ -51,7 +51,7 @@ Layers = [
 ('meta-ros-webos',            60, 'git://github.com/shr-project/meta-ros-webos.git',        {'branch': 'dunfell', 'commit': 'dunfell-2020-02-22'}, {}),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': '4229f50'}, {}),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': '98a6664'}, {}),
 ]
 
 # BblayersConfExtraLines is a list of strings to be appended to the generated
