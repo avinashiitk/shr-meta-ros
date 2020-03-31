@@ -22,9 +22,9 @@ MetaRos_Branch  = getenv('MCF_META_ROS_BRANCH',   'master-draft')
 Layers = [
 ('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': 'master', 'commit': '9a5dd1be'}, {}),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': '91f464177e'}, {}),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'master', 'commit': '3937ca9e2d'}, {}),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': 'e66990ec08'}, {}),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'master', 'commit': 'a6e846dadc'}, {}),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
@@ -43,7 +43,7 @@ Layers = [
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-03-27'}, {}),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': '4d5c6ed'}, {}),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'dunfell', 'commit': '1264148'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
