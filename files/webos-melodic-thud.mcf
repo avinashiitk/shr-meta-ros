@@ -54,11 +54,12 @@ Layers = [
 ('meta-webos-backports-3.0',  31, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
 ('meta-webos-backports-3.1',  32, 'git://github.com/webosose/meta-webosose.git',            {}, {}),
 
-('meta-ros-backports-warrior',33, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
-('meta-ros-backports-zeus',   34, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
-('meta-ros-common',           35, MetaRos_RepoURL,                                          {}, {}),
-('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
-('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-backports-warrior',34, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-backports-zeus',   35, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-backports-dunfell',36, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-common',           37, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
+('meta-ros1',                 38, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros1-melodic',         39, MetaRos_RepoURL,                                          {}, {}),
 
 ('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            {'branch': 'master', 'commit': 'builds/webosose/master/' + webOSOSEBuildNumber}, {}),
 
