@@ -59,9 +59,9 @@ Layers = [
 
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                {'branch': 'dunfell', 'commit': '8054d5b'}, {}),
 
-('meta-ros-common',           35, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
-('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
-('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-common',           37, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
+('meta-ros1',                 38, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros1-melodic',         39, MetaRos_RepoURL,                                          {}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'dunfell', 'commit': 'e60c739'}, {}),
 ]
