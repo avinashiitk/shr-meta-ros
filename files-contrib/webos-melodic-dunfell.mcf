@@ -37,9 +37,9 @@ Layers = [
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 {'branch': 'warrior', 'commit': '20331bd'}, {}),
 
-('meta-ros-common',           35, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
-('meta-ros1',                 36, MetaRos_RepoURL,                                          {}, {}),
-('meta-ros1-melodic',         37, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros-common',           37, MetaRos_RepoURL,                                          {'branch': MetaRos_Branch}, {}),
+('meta-ros1',                 38, MetaRos_RepoURL,                                          {}, {}),
+('meta-ros1-melodic',         39, MetaRos_RepoURL,                                          {}, {}),
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-04-05'}, {}),
 
