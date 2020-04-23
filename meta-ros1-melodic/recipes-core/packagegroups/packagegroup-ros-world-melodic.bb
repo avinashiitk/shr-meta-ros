@@ -1300,7 +1300,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     novatel-msgs \
     object-recognition-msgs \
     octomap-msgs \
-    dynamic-edt-3d \
     odva-ethernetip \
     open-manipulator-msgs \
     p2os-msgs \
