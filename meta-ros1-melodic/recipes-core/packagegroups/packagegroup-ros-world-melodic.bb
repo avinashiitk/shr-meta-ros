@@ -1581,7 +1581,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     industrial-trajectory-filters \
     ipr-extern \
     jackal-desktop \
-    jackal-viz \
     joint-trajectory-action \
     joint-trajectory-action-tools \
     joint-trajectory-controller \
@@ -1847,7 +1846,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     visualization-tutorials \
     volksbot-driver \
     warthog-desktop \
-    warthog-viz \
     wge100-camera \
     xpp \
     xpp-examples \
