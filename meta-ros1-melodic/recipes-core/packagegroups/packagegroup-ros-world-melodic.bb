@@ -1204,7 +1204,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     behaviortree-cpp \
     behaviortree-cpp-v3 \
     brics-actuator \
-    calibration-msgs \
     cartesian-msgs \
     cob-actions \
     cob-msgs \
@@ -1219,12 +1218,10 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     dataspeed-ulc-msgs \
     dbw-fca-msgs \
     dbw-mkz-msgs \
-    distance-map-msgs \
     dynamic-robot-state-publisher \
     smach-msgs \
     fcl-catkin \
     four-wheel-steering-msgs \
-    franka-msgs \
     fsrobo-r-msgs \
     gazebo-msgs \
     graph-msgs \
@@ -1250,7 +1247,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     kobuki-msgs \
     leuze-msgs \
     lgsvl-msgs \
-    libg2o \
     libuvc-camera \
     map-merge-3d \
     marti-can-msgs \
@@ -1264,7 +1260,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     md49-messages \
     mir-msgs \
     ml-classifiers \
-    mbf-msgs \
     mrpt-msgs \
     multimaster-msgs-fkie \
     multisense-ros \
@@ -1284,8 +1279,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_COMPILE = "\
     nmea-msgs \
     novatel-gps-msgs \
     novatel-msgs \
-    object-recognition-msgs \
-    octomap-msgs \
     odva-ethernetip \
     open-manipulator-msgs \
     p2os-msgs \
@@ -1624,7 +1617,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     moveit-controller-manager-example \
     moveit-fake-controller-manager \
     moveit-kinematics \
-    moveit-msgs \
     moveit-planners \
     moveit-planners-chomp \
     moveit-planners-ompl \
