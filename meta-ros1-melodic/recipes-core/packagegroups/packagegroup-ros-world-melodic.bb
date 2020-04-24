@@ -1253,7 +1253,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     epos2-motor-controller \
     fake-joint-driver \
     find-object-2d \
-    fingertip-pressure \
     fkie-potree-rviz-plugin \
     fmi-adapter \
     grid-map-rviz-plugin \
@@ -1273,7 +1272,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     pyros-utils \
     rc-genicam-api \
     rosmon-core \
-    rosping \
     rviz-imu-plugin \
     rviz-plugin-tutorials \
     rviz-python-tutorial \
@@ -1286,7 +1284,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     trajectory-tracker-rviz-plugins \
     turtlesim \
     tuw-geometry \
-    willow-maps \
     ypspur-ros \
 "
 
@@ -1433,7 +1430,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     fetch-simple-linear-controller \
     fetch-teleop \
     file-management \
-    fingertip-pressure \
     flexbe-behavior-engine \
     flexbe-core \
     flexbe-input \
@@ -1496,7 +1492,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     lex-common-msgs \
     lex-node \
     libuvc-ros \
-    lockfree \
     locomotor \
     locomotor-msgs \
     locomove-base \
@@ -1736,7 +1731,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     visualization-tutorials \
     volksbot-driver \
     warthog-desktop \
-    wge100-camera \
     xpp \
     xpp-examples \
     xpp-hyq \
