@@ -1316,7 +1316,6 @@ RDEPENDS_${PN}_remove = "${@bb.utils.contains('ROS_WORLD_SKIP_GROUPS', 'unknown-
 ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     ariles-ros \
     combined-robot-hw-tests \
-    dccomms-ros-msgs \
     eigenpy \
     eml \
     epos2-motor-controller \
