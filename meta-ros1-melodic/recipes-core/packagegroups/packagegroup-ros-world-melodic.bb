@@ -1319,7 +1319,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     epos2-motor-controller \
     hebi-cpp-api \
     hpp-fcl \
-    libcmt \
     libntcan \
     librealsense2 \
     novatel-gps-driver \
