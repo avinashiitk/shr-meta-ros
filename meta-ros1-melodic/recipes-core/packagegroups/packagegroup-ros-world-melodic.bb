@@ -1348,7 +1348,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_TO_CONFIGURE = "\
     prosilica-gige-sdk \
     pyros-utils \
     rc-genicam-api \
-    rosmon-core \
     ypspur-ros \
 "
 
@@ -1703,7 +1702,6 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_FAILING_BECAUSE_OF_ITS_DEPS = "\
     rosbridge-server \
     rosbridge-suite \
     rosmon \
-    rosmon-core \
     rosrt \
     roswww \
     rotors-comm \
