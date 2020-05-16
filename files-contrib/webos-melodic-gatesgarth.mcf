@@ -41,7 +41,7 @@ Layers = [
 ('meta-ros1',                 38, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros1-melodic',         39, MetaRos_RepoURL,                                          {}, {}),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'master', 'commit': 'master-2020-05-12'}, {}),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'master', 'commit': 'master-2020-05-16'}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'master', 'commit': '6f85d3f'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
@@ -51,7 +51,7 @@ Layers = [
 ('meta-ros-webos',            60, 'git://github.com/shr-project/meta-ros-webos.git',        {'branch': 'master', 'commit': 'master-2020-03-25'}, {}),
 
 ('meta-webos-smack',          75, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
-('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': 'f1ca0f9'}, {}),
+('meta-security',             77, 'git://git.yoctoproject.org/meta-security',               {'branch': 'master', 'commit': '95fe86e'}, {}),
 ]
 
 # BblayersConfExtraLines is a list of strings to be appended to the generated
