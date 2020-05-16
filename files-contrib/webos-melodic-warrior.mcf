@@ -44,7 +44,7 @@ Layers = [
 ('meta-ros1',                 38, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros1-melodic',         39, MetaRos_RepoURL,                                          {}, {}),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'warrior', 'commit': 'warrior-2020-05-12'}, {}),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'warrior', 'commit': 'warrior-2020-05-16'}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'warrior', 'commit': '5551792'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
