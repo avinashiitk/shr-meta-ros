@@ -1345,6 +1345,7 @@ ROS_SUPERFLORE_GENERATED_WORLD_PACKAGES_DEPENDING_ON_OPENGL_AND_VC4GRAPHICS = " 
     visp-camera-calibration \
     visp-hand2eye-calibration \
     visp-tracker \
+    web-video-server \
     webrtc-ros \
     yocs-localization-manager \
 "
