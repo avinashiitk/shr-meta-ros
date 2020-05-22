@@ -22,16 +22,16 @@ MetaRos_Branch  = getenv('MCF_META_ROS_BRANCH',   'dunfell-draft')
 Layers = [
 ('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': '1.46', 'commit': 'b94dec47'}, {}),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'dunfell', 'commit': '1a50634e56'}, {}),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'dunfell', 'commit': '5bfdb6bfbd'}, {}),
 
-('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'dunfell', 'commit': 'a62ad77973'}, {}),
+('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'dunfell', 'commit': 'e413c1ef62'}, {}),
 ('meta-multimedia',           11, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-networking',           12, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
 
 ('meta-updater',              15, 'git://github.com/advancedtelematic/meta-updater.git',    {'branch': 'dunfell', 'commit': '17db2e6'}, {}),
-('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'dunfell', 'commit': 'db5d7d2'}, {}),
+('meta-virtualization',       16, 'git://git.yoctoproject.org/meta-virtualization',         {'branch': 'dunfell', 'commit': 'ff8ab85'}, {}),
 ('meta-python2',              17, 'git://git.openembedded.org/meta-python2',                {'branch': 'dunfell', 'commit': 'e2ef0dd'}, {}),
 
 ('meta-qt5-compat',           19, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
@@ -41,7 +41,7 @@ Layers = [
 ('meta-ros2',                 38, MetaRos_RepoURL,                                          {}, {}),
 ('meta-ros2-dashing',         39, MetaRos_RepoURL,                                          {}, {}),
 
-('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-05-21'}, {}),
+('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-05-22'}, {}),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'dunfell', 'commit': '2f24262'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
