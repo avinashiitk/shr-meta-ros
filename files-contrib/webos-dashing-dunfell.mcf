@@ -43,7 +43,7 @@ Layers = [
 
 ('meta-webos',                40, 'git://github.com/shr-project/meta-webosose.git',         {'branch': 'dunfell', 'commit': 'dunfell-2020-05-22'}, {}),
 
-('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'dunfell', 'commit': '2f24262'}, {}),
+('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi.git',        {'branch': 'dunfell', 'commit': '8066fac'}, {}),
 ('meta-webos-raspberrypi',    51, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-updater',        52, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
 ('meta-webos-virtualization', 53, 'git://github.com/shr-project/meta-webosose.git',         {}, {}),
