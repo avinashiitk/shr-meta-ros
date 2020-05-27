@@ -52,7 +52,7 @@ MetaRos_Branch  = getenv('MCF_META_ROS_BRANCH',   'zeus-draft')
 Layers = [
 ('bitbake',                   -1, 'git://github.com/openembedded/bitbake.git',              {'branch': '1.44', 'commit': '6836184e'}, {}),
 
-('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'zeus', 'commit': '26b13f5938'}, {}),
+('meta',                       5, 'git://github.com/openembedded/openembedded-core.git',    {'branch': 'zeus', 'commit': 'b63955977e'}, {}),
 
 ('meta-oe',                   10, 'git://github.com/openembedded/meta-openembedded.git',    {'branch': 'zeus', 'commit': '9e60d30669'}, {}),
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    {}, {}),
